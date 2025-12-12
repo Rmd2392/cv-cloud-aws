@@ -1,0 +1,146 @@
+BasicInfo:
+  FirstName: Ricardo
+  LastName: Martín
+  Photo: /img/avatar.png
+  Contacts:
+    - Icon: fas fa-envelope
+      Info: 2024_ricardo.martin@iticbcn.cat
+    - Icon: fab fa-linkedin
+      Info: <a class="contact__link" href="https://www.linkedin.com/in/rmd23/" target="_blank">LinkedIn</a>
+    - Icon: fab fa-github
+      Info: <a class="github__link" href="https://github.com/Rmd2392" target="_blank">GitHub</a>
+    - Icon: fas fa-phone
+      Info: +34 636 63 36 63
+    - Icon: fas fa-map-marker-alt
+      Info: Barcelona, España
+
+Profile: >
+  Estudiante de segundo curso de Desarrollo de Aplicaciones Web (DAW) con un fuerte
+  interés en Cloud Computing y las tecnologías web modernas. Experiencia práctica
+  con servicios AWS como Amplify, Route 53, Lambda, API Gateway y DynamoDB a través
+  de proyectos académicos. Familiarizado con desarrollo frontend y backend, control
+  de versiones con Git y conceptos básicos de DevOps. Motivado para seguir aprendiendo,
+  mejorar habilidades técnicas y aplicar soluciones cloud en proyectos reales.
+
+Experience:
+  - Employer: Bandai Namco
+    Place: Barcelona, España
+    Positions:
+      - Title: Desarrollador de aplicaciones web junior
+        Date: Ene 2024 - Actualidad
+        Details:
+          - Desarrollo de aplicaciones web
+          - Trabajo con tecnologías frontend y backend
+          - Uso de control de versiones y buenas prácticas
+          - Mejora y mantenimiento de funcionalidades existentes
+          - Colaboración con el equipo de desarrollo
+          - Desarrollo orientado a calidad de código
+        Badges: ['Java', 'Python', 'Django', 'OOP', 'Javascript', 'HTML', 'CSS', 'Agile']
+      - Title: Software Tester
+        Date: Mar 2019 - Ene 2020
+        Details:
+          - Diseño y ejecución de pruebas funcionales
+          - Detección y reporte de errores
+          - Validación de requisitos
+        Badges: ['Python', 'BDD', 'Selenium', 'OOP', 'Agile']
+
+  - Employer: Another super cool company
+    Place: Lisboa, Portugal
+    Positions:
+      - Title: Flow Cytometry Resource Specialist
+        Date: Ene 2018 - Mar 2019
+        Details:
+          - Análisis y procesamiento de datos
+          - Soporte técnico especializado
+          - Trabajo con herramientas científicas
+        Badges: ['Python', 'HTML', 'CSS', 'C#/Unity']
+
+  - Employer: Institute of Neural Engineering
+    Place: London, United Kingdom
+    Class: "experience__extra_padding"
+    Positions:
+      - Title: Master's Thesis Research Intern
+        Date: Oct 2016 - Jun 2017
+        Details:
+          - Investigación aplicada
+          - Análisis de datos experimentales
+          - Desarrollo de prototipos de software
+          - Documentación técnica
+        Badges: ['Python', 'MATLAB', 'Data Processing', 'Paradigm Design']
+
+Education:
+  - Course: BSc & MSc in Biomedical Engineering and Biophysics
+    Place: University of Lisbon
+    Date: Sep 2012 - Nov 2017
+    Details: Especialización en análisis de datos
+
+References:
+  - Name: Persona Uno
+    Relation: Compañero de trabajo en Super Cool Company
+    Contacts:
+      - Icon: fas fa-phone
+        Info: +44 123 456 790
+      - Icon: fas fa-envelope
+        Info: contact@person-one.com
+      - Icon: fas fa-map-marker-alt
+        Info: Melbourne, Australia
+
+  - Name: Persona Dos
+    Relation: Jefe en Super Cool Company
+    Contacts:
+      - Icon: fas fa-phone
+        Info: +44 123 456 791
+      - Icon: fas fa-envelope
+        Info: contact@person-two.com
+      - Icon: fas fa-map-marker-alt
+        Info: Sydney, Australia
+
+Skills:
+  - Family: Programming
+    Items:
+      - Java
+      - Python
+      - HTML
+      - CSS
+      - Javascript
+      - SQL (PostgreSQL, MySQL, Oracle)
+      - MongoDB
+      - FastAPI
+      - Bash / cmd
+      - Operating Systems
+  - Family: Frameworks
+    Items:
+      - Django
+      - Flask
+      - Hugo
+      - React
+  - Family: Developer Tools
+    Items:
+      - Git & GitHub
+      - AWS Cloud
+      - Docker
+      - Jenkins
+  - Family: Misc
+    Items:
+      - Adobe Tools
+      - LaTeX
+
+Languages:
+  - Name: Castellano
+    Level: Nativo
+  - Name: Inglés
+    Level: B2
+  - Name: Catalán
+    Level: B1
+
+Diplomas:
+  - Database Programming with SQL by Oracle Academy (2025)
+  - Cambridge English FCE (2023)
+
+Interests:
+  - Escalada
+  - Cocina
+  - Windsurfing
+  - Bossa Nova
+  - Diseño
+  - Idiomas

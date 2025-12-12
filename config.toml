@@ -1,0 +1,44 @@
+languageCode = "en-us"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false   # EN en la raíz "/"
+enableRobotsTXT = true
+enableEmoji = true
+
+theme = "almeida-cv"
+disableKinds = ["page", "section", "taxonomy", "term", "RSS", "sitemap"]
+
+baseURL = "http://localhost:1313/"
+title = "Currículum Ricardo"
+#googleAnalytics = ""
+
+[languages]
+  [languages.en]
+    languageName = "EN"
+    weight = 1
+
+  [languages.es]
+    languageName = "ES"
+    weight = 2
+
+  [languages.ca]
+    languageName = "CA"
+    weight = 3
+
+[params]
+enableMetaTags = true
+colorLight = "#fff"
+colorDark = "#666"
+colorPageBackground = "#ddd"
+colorPrimary = "#8b5cf6"
+colorSecondary = "#aaa"
+colorIconPrimary = "#fff"
+colorIconBackground = "#8b5cf6"
+colorRightColumnBackground = "#f5f5f5"
+colorRightColumnHeadingText = "#666"
+colorRightColumnBodyText = "#666"
+colorRightColumnIconPrimary = "#fff"
+colorRightColumnIconBackground = "#8b5cf6"
+pages = 1
+# Set this param to 'true' to swap the bar positions
+swapColumns = false
+footerNote = "2025 © by Ricardo Martín   |   2024_ricardo.martin@iticbcn.cat"

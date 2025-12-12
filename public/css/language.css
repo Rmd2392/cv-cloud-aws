@@ -1,0 +1,22 @@
+.language-switcher {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  font-size: 0.85rem;
+}
+
+.language-switcher a {
+  margin-left: 0.5rem;
+  text-decoration: none;
+  padding: 3px 8px;
+  border-radius: 999px;
+  border: 1px solid #8b5cf6; /* se puede cambiar al nuevo color */
+  color: #8b5cf6;
+}
+
+.language-switcher a:hover {
+  background-color: #8b5cf6;
+  color: white;
+}
+
+

@@ -1,0 +1,147 @@
+BasicInfo:
+  FirstName: Ricardo
+  LastName: Martín
+  Photo: /img/avatar.png
+  Contacts:
+  - Icon: fas fa-envelope
+    Info: 2024_ricardo.martin@iticbcn.cat
+  - Icon: fab fa-linkedin
+    Info: <a class="contact__link" href="https://www.linkedin.com/in/rmd23/" target="_blank">LinkedIn</a>
+  - Icon: fab fa-github
+    Info: <a class="github__link" href="https://github.com/Rmd2392" target="_blank">GitHub</a>
+  - Icon: fas fa-phone
+    Info: +34 636 63 36 63
+  - Icon: fas fa-map-marker-alt
+    Info: Barcelona, Spain
+
+
+Profile: >
+  Second-year student of Web Application Development (DAW) with a strong interest in
+  Cloud Computing and modern web technologies. Hands-on experience with AWS services
+  such as Amplify, Route 53, Lambda, API Gateway and DynamoDB through academic projects.
+  Familiar with frontend and backend development, version control with Git, and basic
+  DevOps concepts. Motivated to continue learning, improving technical skills and
+  applying cloud solutions to real-world projects.
+
+
+Experience:
+  - Employer: Bandai Namco
+    Place: Barcelona, Spain
+    Positions:
+      - Title: Junior web application developer
+        Date: Jan 2024 - Present
+        Details:
+          - Arcu vitae elementum curabitur vitae nunc sed velit
+          - Viverra aliquet eget sit amet tellus cras adipiscing
+          - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+          - Nisl tincidunt eget nullam non nisi est
+          - Sed viverra tellus in hac.
+          - Lorem ipsum dolor sit amet, consectetur adipiscing elit
+        Badges: ['Java', 'Python', 'Django', 'OOP', 'Javascript', 'HTML', 'CSS', 'Agile']
+      - Title: Software Tester
+        Date: Mar 2019 - Jan 2020
+        Details:
+          - Nisl tincidunt eget nullam non nisi est
+          - Sed viverra tellus in hac.
+          - Lorem ipsum dolor sit amet, consectetur adipiscing elit
+        Badges: ['Python', 'BDD', 'Selenium', 'OOP', 'Agile']
+  - Employer: Another super cool company
+    Place: Lisbon, Portugal
+    Positions:
+      - Title: Flow Cytometry Resource Specialist
+        Date: Jan 2018 - Mar 2019
+        Details:
+          - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+          - Nisl tincidunt eget nullam non nisi est
+          - Sed viverra tellus in hac.
+          - Lorem ipsum dolor sit amet, consectetur adipiscing elit
+        Badges: ['Python', 'HTML', 'CSS', 'C#/Unity']
+  - Employer: Institute of Neural Engineering
+    Place: London, United Kingdom
+    Class: "experience__extra_padding"
+    Positions:
+      - Title: Master's Thesis Research Intern
+        Date: Oct 2016 - Jun 2017
+        Details:
+          - Arcu vitae elementum curabitur vitae nunc sed velit
+          - Viverra aliquet eget sit amet tellus cras adipiscing
+          - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+          - Nisl tincidunt eget nullam non nisi est
+        Badges: ['Python', 'MATLAB', 'Data Processing', 'Paradigm Design']
+
+Education:
+  - Course: BSc & MSc in Biomedical Engineering and Biophysics
+    Place: University of Lisbon
+    Date: Sep 2012 - Nov 2017
+    Details: Specialised in data analysis
+
+References:
+  - Name: Person One
+    Relation: Co-worker at Super Cool Company
+    Contacts:
+    - Icon: fas fa-phone
+      Info: +44 123 456 790
+    - Icon: fas fa-envelope
+      Info: contact@person-one.com
+    - Icon: fas fa-map-marker-alt
+      Info: Melbourne, Australia
+  - Name: Person Two
+    Relation: Boss at Super Cool Company
+    Contacts:
+    - Icon: fas fa-phone
+      Info: +44 123 456 791
+    - Icon: fas fa-envelope
+      Info: contact@person-two.com
+    - Icon: fas fa-map-marker-alt
+      Info: Sydney, Australia
+
+
+Skills:
+  - Family: Programming
+    Items:
+      - Java
+      - Python
+      - HTML
+      - CSS
+      - Javascript
+      - SQL (PostgreSQL,MySQL, Oracle)
+      - MongoDB
+      - FastAPI
+      - Bash / cmd
+      - OS
+  - Family: Frameworks
+    Items:
+      - Django
+      - Flask
+      - Hugo
+      - React
+  - Family: Developer Tools
+    Items:
+      - Git & Github
+      - Cloud AWS
+      - Docker
+      - Jenkins
+  - Family: Misc
+    Items:
+      - Adobe Tools
+      - LaTeX
+
+Languages:
+  - Name: Spanish
+    Level: Native
+  - Name: English
+    Level: B2
+  - Name: Catalan
+    Level: B1
+
+Diplomas:
+  - Database Programming with SQL by Oracle Academy (2025)
+  - English Cambridge FCE (2023)
+
+Interests:
+  - Bouldering
+  - Cooking
+  - Windsurfing
+  - Bossa Nova
+  - Design
+  - Languages

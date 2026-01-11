@@ -1,0 +1,62 @@
+// override me
+// customiza aquí
+
+/* Fila del título + selector de idiomas */
+.heading-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+/* Contenedor de los idiomas */
+.language-switcher {
+  display: inline-flex;
+  gap: 0.35rem;
+  font-size: 0.8rem;
+}
+
+/* Pastillas base */
+.language-switcher a {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px 10px 3px 26px; /* espacio a la izquierda para la bandera */
+  border-radius: 999px;
+  border: 1px solid $color-primary;
+  color: $color-primary;
+  text-decoration: none;
+  line-height: 1.2;
+  background-repeat: no-repeat;
+  background-size: 16px 16px;
+  background-position: 7px center;
+  transition: background-color 0.15s ease, color 0.15s ease, box-shadow 0.15s ease;
+}
+
+/* Banderas por idioma (usa la ruta de static/img/flags) */
+.language-switcher a[data-lang="en"] {
+  background-image: url("/img/flags/gb.svg");
+}
+
+.language-switcher a[data-lang="es"] {
+  background-image: url("/img/flags/es.svg");
+}
+
+.language-switcher a[data-lang="ca"] {
+  background-image: url("/img/flags/cat.svg");
+}
+
+/* Hover genérico */
+.language-switcher a:hover {
+  background-color: rgba(139, 92, 246, 0.08); /* morado suave */
+  box-shadow: 0 0 0 1px $color-primary;
+}
+
+/* Idioma activo: siempre marcado */
+.language-switcher a.lang-active {
+  background-color: $color-primary;
+  color: #fff;
+  box-shadow: 0 0 0 1px $color-primary;
+}
+

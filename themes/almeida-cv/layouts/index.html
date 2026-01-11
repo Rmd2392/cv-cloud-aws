@@ -1,7 +1,7 @@
 {{ $data := or (index .Site.Data .Site.Language.Lang).content .Site.Data.content }}
 {{ .Scratch.Set "data" $data }}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ .Site.Language.Lang }}">
     {{ partial "head.html" . }}
 <body>
     <div class="content">
@@ -47,6 +47,7 @@
         {{ end }}
             {{ partial "_avatar.html" $data }}
             {{ partial "_contacts.html" $data }}
+            {{ partial "_visits.html" $data }}
             {{ partial "_skills.html" $data }}
             {{ partial "_languages.html" $data }}
             {{ partial "_diplomas.html" $data }}

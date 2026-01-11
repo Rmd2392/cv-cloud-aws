@@ -1,5 +1,6 @@
 {{ $style := resources.Get "scss/main.scss" | resources.ExecuteAsTemplate "style.main.scss" . | toCSS | minify | fingerprint }}
 {{ $data := .Scratch.Get "data" }}
+<script defer src="{{ "js/visits.js" | relURL }}"></script>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

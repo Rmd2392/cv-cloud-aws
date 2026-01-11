@@ -2,10 +2,8 @@
 // customiza aquí
 
 /* Fila del título + selector de idiomas */
-.heading-row {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
+.header-row {
+  display: block;
   margin-bottom: 0.5rem;
 }
 
@@ -13,7 +11,8 @@
 .language-switcher {
   display: inline-flex;
   gap: 0.35rem;
-  font-size: 0.8rem;
+  font-size: 0.85rem;
+  margin-top: 0.35rem;
 }
 
 /* Pastillas base */
@@ -22,30 +21,38 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 3px 10px 3px 26px; /* espacio a la izquierda para la bandera */
+  padding: 4px 12px 4px 28px; /* espacio a la izquierda para la bandera */
   border-radius: 999px;
   border: 1px solid $color-primary;
   color: $color-primary;
   text-decoration: none;
   line-height: 1.2;
   background-repeat: no-repeat;
-  background-size: 16px 16px;
-  background-position: 7px center;
+  background-size: 18px 18px;
+  background-position: 8px center;
   transition: background-color 0.15s ease, color 0.15s ease, box-shadow 0.15s ease;
 }
 
-/* Banderas por idioma (usa la ruta de static/img/flags) */
-.language-switcher a[data-lang="en"] {
+/* Por defecto, SIN bandera */
+.language-switcher a.lang-en,
+.language-switcher a.lang-es,
+.language-switcher a.lang-ca {
+  background-image: none;
+}
+
+/* Bandera solo en hover */
+.language-switcher a.lang-en:hover {
   background-image: url("/img/flags/gb.svg");
 }
 
-.language-switcher a[data-lang="es"] {
+.language-switcher a.lang-es:hover {
   background-image: url("/img/flags/es.svg");
 }
 
-.language-switcher a[data-lang="ca"] {
+.language-switcher a.lang-ca:hover {
   background-image: url("/img/flags/cat.svg");
 }
+
 
 /* Hover genérico */
 .language-switcher a:hover {
@@ -54,9 +61,64 @@
 }
 
 /* Idioma activo: siempre marcado */
-.language-switcher a.lang-active {
+.language-switcher a.lang-pill--active {
   background-color: $color-primary;
   color: #fff;
   box-shadow: 0 0 0 1px $color-primary;
 }
 
+/* Bandera fija en el idioma activo */
+.language-switcher a.lang-pill--active.lang-en {
+  background-image: url("/img/flags/gb.svg") !important;
+}
+
+.language-switcher a.lang-pill--active.lang-es {
+  background-image: url("/img/flags/es.svg") !important;
+}
+
+.language-switcher a.lang-pill--active.lang-ca {
+  background-image: url("/img/flags/cat.svg") !important;
+}
+
+/* =========================
+   VISITS (counter)
+   ========================= */
+
+#visits-block {
+  border-radius: 12px;
+  padding: 14px 14px;
+  background: rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+/* Centrar título y quitar línea decorativa del tema */
+#visits-block .section__heading {
+  justify-content: center;
+}
+
+/* Quita las líneas decorativas del título solo en VISITS */
+#visits-block .section__title::after,
+#visits-block .section__title::before {
+  display: none !important;
+  content: none !important;
+}
+
+/* Centrar título */
+#visits-block .section__title {
+  text-align: center;
+  margin: 0;
+}
+
+/* Centrar contenido */
+#visits-block .section__content {
+  text-align: center;
+}
+
+/* Número */
+#visits-block #visits-count {
+  font-size: 22px;
+  font-weight: 800;
+  color: $color-primary;
+  display: inline-block;
+  margin-top: 6px;
+}

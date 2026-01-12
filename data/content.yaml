@@ -31,19 +31,19 @@ Experience:
       - Title: Junior web application developer
         Date: Jan 2024 - Present
         Details:
-          - Arcu vitae elementum curabitur vitae nunc sed velit
-          - Viverra aliquet eget sit amet tellus cras adipiscing
-          - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-          - Nisl tincidunt eget nullam non nisi est
-          - Sed viverra tellus in hac.
-          - Lorem ipsum dolor sit amet, consectetur adipiscing elit
+          - Web application development
+          - Working with frontend and backend technologies
+          - Using version control and best practices
+          - Improving and maintaining existing functionalities
+          - Collaborating with the development team
+          - Developing with a focus on code quality
         Badges: ['Java', 'Python', 'Django', 'OOP', 'Javascript', 'HTML', 'CSS', 'Agile']
       - Title: Software Tester
         Date: Mar 2019 - Jan 2020
         Details:
-          - Nisl tincidunt eget nullam non nisi est
-          - Sed viverra tellus in hac.
-          - Lorem ipsum dolor sit amet, consectetur adipiscing elit
+          - Design and execution of functional tests
+          - Error detection and reporting
+          - Requirements validation
         Badges: ['Python', 'BDD', 'Selenium', 'OOP', 'Agile']
   - Employer: Another super cool company
     Place: Lisbon, Portugal
@@ -57,7 +57,7 @@ Experience:
           - Lorem ipsum dolor sit amet, consectetur adipiscing elit
         Badges: ['Python', 'HTML', 'CSS', 'C#/Unity']
   - Employer: Institute of Neural Engineering
-    Place: London, United Kingdom
+    Place: London, UK
     Class: "experience__extra_padding"
     Positions:
       - Title: Master's Thesis Research Intern
